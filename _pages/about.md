@@ -1,8 +1,18 @@
 ---
-permalink: /about/
-title: "About"
+title: "Kontakt"
+permalink: /kontakt/
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+**Telefon:** [+48 111 222 333](tel:+48111222333)  
+**E-mail:** [biuro@pureshine.pl](mailto:biuro@pureshine.pl)  
+**Adres:** ul. Przykładowa 1, Miasto
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+### Formularz (Formspree)
+<form action="https://formspree.io/f/your-id" method="POST">
+  <label>Imię i nazwisko<br><input type="text" name="name" required></label><br><br>
+  <label>E-mail<br><input type="email" name="email" required></label><br><br>
+  <label>Wiadomość<br><textarea name="message" rows="5" required></textarea></label><br><br>
+  <button type="submit" class="btn btn--primary">Wyślij</button>
+</form>
+
+> Podmień `formspree.io/f/your-id` na swój identyfikator.
