@@ -1,31 +1,28 @@
-title: "PureShine Autodetailing"
+title: "PureShine AutoDetailing"
 description: "Korekta lakieru • Powłoki ceramiczne • Detailing wnętrza"
 remote_theme: "mmistakes/minimal-mistakes"
 
-# Skórka (wygląd kolorystyczny) – możesz zmienić np. na "dark", "mint"
+# wygląd
 minimal_mistakes_skin: "default"
-
-# GitHub Pages – działające wtyczki
-plugins:
-  - jekyll-include-cache
-  - jekyll-paginate
-
-# Ważne dla User Site (twoj-login.github.io)
-url: "https://PureShine123.github.io"
-baseurl: ""   # <- puste, bo to strona użytkownika
-
 locale: "pl"
 
-# Autor – pojawi się w sidebarze i na dole
+# User Site
+url: "https://PureShine123.github.io"
+baseurl: ""
+
+# BEZ bloga/paginacji na stronie głównej
+plugins:
+  - jekyll-include-cache
+
+# dane do stopki/paska autora (opcjonalnie)
 author:
   name: "PureShine Detailing"
-  avatar: "/assets/images/avatar.jpg" # wrzuć swój plik
-  bio: "Przywracamy blask Twojemu samochodowi 🚗✨"
-  location: "Elbląg"
+  avatar: "/assets/images/avatar.jpg"      # dodaj plik jeśli chcesz
+  bio: "Przywracamy blask Twojemu samochodowi."
   links:
     - label: "Instagram"
       icon: "fab fa-instagram"
-      url: "https://www.instagram.com/detailing_pureshine_elblag?fbclid=IwY2xjawMTGDZleHRuA2FlbQIxMABicmlkETE0bENVUHV1T0kyaGN6MUQ4AR5lbWK6QyfSKm4Kvv-ednqUAl5qntj5YOwUZYwYvBHkJzIXexSv-DZ9jKcIsg_aem_POtAQWOLXHE4M5E3FJlM4Q"
+      url: "https://www.instagram.com/detailing_pureshine_elblag?fbclid=IwY2xjawMTHT5leHRuA2FlbQIxMABicmlkETE0bENVUHV1T0kyaGN6MUQ4AR5lbWK6QyfSKm4Kvv-ednqUAl5qntj5YOwUZYwYvBHkJzIXexSv-DZ9jKcIsg_aem_POtAQWOLXHE4M5E3FJlM4Q"
     - label: "Facebook"
       icon: "fab fa-facebook"
       url: "https://www.facebook.com/p/Pure-Shine-Elbl%C4%85g-61562244935278/"
@@ -33,7 +30,7 @@ author:
       icon: "fas fa-phone"
       url: "tel:+48606860617"
 
-# Menu górne (masthead)
+# górne menu (masthead)
 navigation:
   - title: "Start"
     url: /
@@ -46,20 +43,21 @@ navigation:
   - title: "Kontakt"
     url: /kontakt/
 
-# Strona główna z listą postów (jak w demie)
-paginate: 6
-paginate_path: "/page:num/"
+# domyślne: strony bez sidebaru
+defaults:
+  - scope: { path: "" }
+    values:
+      layout: single
+      sidebar: false
+      author_profile: false
+      toc: false
 
-# Okruszki i wyszukiwarka
-breadcrumbs: true
-search: true
-
-# Stopka (sociale na dole strony)
+# linki w stopce
 footer:
   links:
     - label: "Instagram"
       icon: "fab fa-instagram"
-      url: "https://www.instagram.com/detailing_pureshine_elblag?fbclid=IwY2xjawMTGDZleHRuA2FlbQIxMABicmlkETE0bENVUHV1T0kyaGN6MUQ4AR5lbWK6QyfSKm4Kvv-ednqUAl5qntj5YOwUZYwYvBHkJzIXexSv-DZ9jKcIsg_aem_POtAQWOLXHE4M5E3FJlM4Q"
+      url: "https://www.instagram.com/detailing_pureshine_elblag?fbclid=IwY2xjawMTHT5leHRuA2FlbQIxMABicmlkETE0bENVUHV1T0kyaGN6MUQ4AR5lbWK6QyfSKm4Kvv-ednqUAl5qntj5YOwUZYwYvBHkJzIXexSv-DZ9jKcIsg_aem_POtAQWOLXHE4M5E3FJlM4Q"
     - label: "Facebook"
       icon: "fab fa-facebook"
       url: "https://www.facebook.com/p/Pure-Shine-Elbl%C4%85g-61562244935278/"
