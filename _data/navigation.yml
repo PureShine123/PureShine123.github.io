@@ -1,9 +1,11 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "About"
-    url: /about/
+  - title: "Start"
+    url: /
+  - title: "O nas"
+    url: /o-nas/
+  - title: "Usługi"
+    url: /uslugi/
+  - title: "Realizacje"
+    url: /realizacje/
+  - title: "Kontakt"
+    url: /kontakt/
