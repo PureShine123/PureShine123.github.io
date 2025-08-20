@@ -1,7 +1,40 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
-author_profile: true
+layout: splash
+title: "PureShine Detailing"
+permalink: /
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.45"
+  overlay_image: /assets/images/IMG_7957.JPEG   # wgraj ten plik
+  actions:
+    - label: "Umów wizytę"
+      url: /kontakt/
+excerpt: "Korekta lakieru • Powłoki ceramiczne • Detailing wnętrza"
+intro:
+  - excerpt: "Detailing klasy premium – poprawiamy wygląd Twojego auta i chronimy lakier na długo."
+feature_row:
+  - image_path: /assets/images/feat1.jpg
+    alt: "Korekta lakieru"
+    title: "Korekta lakieru"
+    excerpt: "Usuwanie mikrorys, wieloetapowe polerowanie."
+    url: "/uslugi/"
+    btn_label: "Zobacz"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/feat2.jpg
+    alt: "Powłoka ceramiczna"
+    title: "Powłoka ceramiczna"
+    excerpt: "Długotrwała ochrona, hydrofobowość i połysk."
+    url: "/cennik/"
+    btn_label: "Cennik"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/feat3.jpg
+    alt: "Detaling wnętrza"
+    title: "Detaling wnętrza"
+    excerpt: "Pranie tapicerki, czyszczenie skóry, ozonowanie."
+    url: "/uslugi/"
+    btn_label: "Usługi"
+    btn_class: "btn--primary"
 ---
+
+{% include feature_row id="intro" type="center" %}
+{% include feature_row %}
