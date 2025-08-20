@@ -53,5 +53,6 @@ footer:
 atom_feed:
   hide: true
 
-copyright: false
+copyright: ""
+
 
