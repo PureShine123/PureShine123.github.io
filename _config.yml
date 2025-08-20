@@ -46,3 +46,6 @@ footer:
     - label: "Facebook"
       icon: "fab fa-facebook"
       url: "https://www.facebook.com/p/Pure-Shine-Elbl%C4%85g-61562244935278/"
+    - label: "Telefon"
+      icon: "fas fa-phone"
+      url: "tel:+48606860617"
