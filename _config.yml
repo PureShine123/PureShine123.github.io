@@ -49,3 +49,6 @@ footer:
     - label: "Telefon"
       icon: "fas fa-phone"
       url: "tel:+48606860617"
+
+atom_feed:
+  hide: true
