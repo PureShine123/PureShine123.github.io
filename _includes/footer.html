@@ -1,16 +1,62 @@
 <footer class="page__footer">
-  <div class="page__footer-follow">
-    <ul class="social-icons">
-      <li><a href="https://www.instagram.com/detailing_pureshine_elblag?fbclid=IwY2xjawMTHT5leHRuA2FlbQIxMABicmlkETE0bENVUHV1T0kyaGN6MUQ4AR5lbWK6QyfSKm4Kvv-ednqUAl5qntj5YOwUZYwYvBHkJzIXexSv-DZ9jKcIsg_aem_POtAQWOLXHE4M5E3FJlM4Q" rel="nofollow noopener noreferrer">
-        <i class="fab fa-instagram"></i> Instagram
-      </a></li>
-      <li><a href="https://www.facebook.com/p/Pure-Shine-Elbl%C4%85g-61562244935278/" rel="nofollow noopener noreferrer">
-        <i class="fab fa-facebook"></i> Facebook
-      </a></li>
-      <li><a href="tel:+48606860617">
-        <i class="fas fa-phone"></i> Telefon
-      </a></li>
-    </ul>
+  <div class="wrap">
+
+    <!-- KOLUMNY STOPKI -->
+    <div class="footer-grid" style="display:flex; gap:2rem; flex-wrap:wrap;">
+      <!-- 1) KONTAKT -->
+      <div class="footer-col" style="flex:1 1 240px; min-width:240px;">
+        <h3 style="margin-top:0;">{{ site.title | default: "PureShine AutoDetailing" }}</h3>
+        <p>Przywracamy blask Twojemu samochodowi – korekta lakieru, powłoki ceramiczne, detailing wnętrza.</p>
+        <p>
+          <strong>Telefon:</strong> <a href="tel:+4860686061">+48 606 860 617</a><br>
+          <strong>E-mail:</strong> <a href="mailto:biuro@pureshine.pl">biuro@pureshine.pl</a><br>
+          <strong>Adres:</strong> ul. Przykładowa 1, Miasto
+        </p>
+      </div>
+
+      <!-- 2) NAWIGACJA -->
+      <div class="footer-col" style="flex:1 1 160px; min-width:200px;">
+        <h3 style="margin-top:0;">Nawigacja</h3>
+        <ul class="nav" style="list-style:none; padding:0; margin:0;">
+          <li><a href="{{ '/' | relative_url }}">Start</a></li>
+          <li><a href="{{ '/uslugi/' | relative_url }}">Usługi</a></li>
+          <li><a href="{{ '/realizacje/' | relative_url }}">Realizacje</a></li>
+          <li><a href="{{ '/cennik/' | relative_url }}">Cennik</a></li>
+          <li><a href="{{ '/wycena/' | relative_url }}">Wycena</a></li>
+          <li><a href="{{ '/kontakt/' | relative_url }}">Kontakt</a></li>
+        </ul>
+      </div>
+
+      <!-- 3) SOCIAL -->
+      <div class="footer-col" style="flex:1 1 200px; min-width:220px;">
+        <h3 style="margin-top:0;">Znajdź nas</h3>
+        <ul class="social-icons" style="list-style:none; padding:0; margin:0;">
+          <li style="margin-bottom:.4rem;">
+            <a href="https://www.instagram.com/detailing_pureshine_elblag?fbclid=IwY2xjawMTHT5leHRuA2FlbQIxMABicmlkETE0bENVUHV1T0kyaGN6MUQ4AR5lbWK6QyfSKm4Kvv-ednqUAl5qntj5YOwUZYwYvBHkJzIXexSv-DZ9jKcIsg_aem_POtAQWOLXHE4M5E3FJlM4Q" rel="nofollow noopener noreferrer" target="_blank">
+              <i class="fab fa-instagram"></i> Instagram
+            </a>
+          </li>
+          <li style="margin-bottom:.4rem;">
+            <a href="https://www.facebook.com/p/Pure-Shine-Elbl%C4%85g-61562244935278/" rel="nofollow noopener noreferrer" target="_blank">
+              <i class="fab fa-facebook"></i> Facebook
+            </a>
+          </li>
+          <li>
+            <a href="tel:+48606860617">
+              <i class="fas fa-phone"></i> Zadzwoń
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <hr style="margin:1.25rem 0; opacity:.3;">
+
+    <!-- COPYRIGHT -->
+    <div class="page__footer-copyright" style="display:flex; justify-content:space-between; flex-wrap:wrap; gap:.75rem;">
+      <span>© {{ site.time | date: '%Y' }} {{ site.title | default: "PureShine AutoDetailing" }}. Wszelkie prawa zastrzeżone.</span>
+      <a href="#top" class="back-to-top">Do góry ↑</a>
+    </div>
   </div>
 </footer>
 
