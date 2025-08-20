@@ -1,5 +1,6 @@
 title: "PureShine AutoDetailing"
 description: "Korekta lakieru • Powłoki ceramiczne • Detailing wnętrza"
+logo: "/assets/images/DF72671E-6749-4B79-A754-721F851104B4.PNG"
 remote_theme: "mmistakes/minimal-mistakes"
 
 # wygląd
@@ -13,22 +14,6 @@ baseurl: ""
 # BEZ bloga/paginacji na stronie głównej
 plugins:
   - jekyll-include-cache
-
-# dane do stopki/paska autora (opcjonalnie)
-author:
-  name: "PureShine Detailing"
-  avatar: "/assets/images/avatar.jpg"      # dodaj plik jeśli chcesz
-  bio: "Przywracamy blask Twojemu samochodowi."
-  links:
-    - label: "Instagram"
-      icon: "fab fa-instagram"
-      url: "https://www.instagram.com/detailing_pureshine_elblag?fbclid=IwY2xjawMTHT5leHRuA2FlbQIxMABicmlkETE0bENVUHV1T0kyaGN6MUQ4AR5lbWK6QyfSKm4Kvv-ednqUAl5qntj5YOwUZYwYvBHkJzIXexSv-DZ9jKcIsg_aem_POtAQWOLXHE4M5E3FJlM4Q"
-    - label: "Facebook"
-      icon: "fab fa-facebook"
-      url: "https://www.facebook.com/p/Pure-Shine-Elbl%C4%85g-61562244935278/"
-    - label: "Telefon"
-      icon: "fas fa-phone"
-      url: "tel:+48606860617"
 
 # górne menu (masthead)
 navigation:
